@@ -1,15 +1,19 @@
-# infinite_games
+# iyana.ai
 
-To install dependencies:
+iyana.ai is an infinite, generative shared world you explore through a terminal.
 
-```bash
-bun install
-```
+you play a netrunner freeing a superintelligence. 
 
-To run:
+the best part: it's multiplayer, all the time. your friends can join you on your adventure.
 
-```bash
-bun run index.ts
-```
+## tech stack
 
-This project was created using `bun init` in bun v1.1.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+- react, vite
+- hono
+- vercel's ai sdk
+- redis
+- bun
+
+when a user enters a command to (e.g. `cd` into a directory), it's hashed. if it's a new command, it's simulated by Claude and added to the world cache. if it's not a new commmand, the output in the world cache is returned. this way, players explore the same computers and directories. 
+
+we're mapping this world together.
