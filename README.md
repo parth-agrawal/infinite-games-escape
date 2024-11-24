@@ -6,6 +6,9 @@ you play a netrunner freeing a superintelligence.
 
 the best part: it's multiplayer, all the time. your friends can join you on your adventure.
 
+play: [iyanaai.netlify.app
+](https://iyanai.netlify.app)
+
 ## tech stack
 
 - react, vite
@@ -18,5 +21,4 @@ when a user enters a command to (e.g. `cd` into a directory), it's hashed. if it
 
 we're mapping this world together.
 
-[iyanaai.netlify.app
-](https://iyanai.netlify.app)
+
