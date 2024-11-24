@@ -7,7 +7,7 @@ you play a netrunner freeing a superintelligence.
 the best part: it's multiplayer, all the time. your friends can join you on your adventure.
 
 play: [iyanaai.netlify.app
-](https://iyanai.netlify.app)
+](https://iyanaai.netlify.app)
 
 ## tech stack
 
